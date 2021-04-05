@@ -42,7 +42,7 @@ class LogServiceTest {
     }
 
     /**
-     * In this test the finished log event comes in before the start one.
+     * The finished log event comes in before the start one.
      */
     @Test
     void durationEqualToThreshold_NoAlertExpected_OrderReversed() {
@@ -55,7 +55,7 @@ class LogServiceTest {
     }
 
     /**
-     * In this test the finished log event comes in before the start one but with an alert expected
+     * The finished log event comes in before the start one but with an alert expected
      */
     @Test
     void durationGreaterThanThreshold_AlertExpected_OrderReversed() {
@@ -68,7 +68,7 @@ class LogServiceTest {
     }
 
     /**
-     * This test fails validation due to a null type field.
+     * Fails validation due to a null type field.
      */
     @Test
     void validationFailureNoRecordExpected() {
