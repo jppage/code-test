@@ -1,0 +1,87 @@
+2021-04-05 20:41:03,533 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogServiceTest on Josephs-MacBook-Pro.local with PID 5351 (started by josephpage in /Users/josephpage/Projects/log-service)
+2021-04-05 20:41:03,535 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-05 20:41:04,109 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-05 20:41:04,153 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 37ms. Found 1 JPA repository interfaces.
+2021-04-05 20:41:04,458 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-05 20:41:04,648 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-05 20:41:04,742 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.4.10.Final}
+2021-04-05 20:41:04,906 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-04-05 20:41:05,028 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-04-05 20:41:05,285 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2021-04-05 20:41:05,287 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-04-05 20:41:05,312 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2021-04-05 20:41:05,905 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-05 20:41:05,912 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-05 20:41:06,378 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-05 20:41:06,563 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-05 20:41:06,808 INFO org.springframework.boot.StartupInfoLogger [main] Started LogServiceTest in 3.825 seconds (JVM running for 4.935)
+2021-04-05 20:41:06,810 INFO com.test.log.service.LogService [main] Running log file processor.
+2021-04-05 20:41:06,815 INFO com.test.log.service.LogService [main] Reading file: src/test/resources/test-file/test-log-file.txt
+2021-04-05 20:41:06,961 ERROR com.test.log.service.LogService [main] Validation error: state cannot be null
+2021-04-05 20:41:06,962 ERROR com.test.log.service.LogService [main] Validation error: state cannot be null
+2021-04-05 20:41:07,318 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-05 20:41:07,321 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-05 20:41:07,330 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-04-05 20:41:07,339 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-04-05 20:41:38,582 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogServiceApplication on Josephs-MacBook-Pro.local with PID 5370 (/Users/josephpage/Projects/log-service/target/classes started by josephpage in /Users/josephpage/Projects/log-service)
+2021-04-05 20:41:38,585 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-05 20:41:39,035 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-05 20:41:39,089 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 47ms. Found 1 JPA repository interfaces.
+2021-04-05 20:41:39,302 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-05 20:41:39,471 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9000 (http)
+2021-04-05 20:41:39,478 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9000"]
+2021-04-05 20:41:39,478 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-05 20:41:39,479 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2021-04-05 20:41:39,579 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-05 20:41:39,579 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 957 ms
+2021-04-05 20:41:39,712 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-05 20:41:39,788 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.4.10.Final}
+2021-04-05 20:41:39,925 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-04-05 20:41:40,012 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-04-05 20:41:40,178 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2021-04-05 20:41:40,188 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-04-05 20:41:40,205 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2021-04-05 20:41:40,684 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-05 20:41:40,689 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-05 20:41:40,928 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-05 20:41:41,027 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-05 20:41:41,154 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9000"]
+2021-04-05 20:41:41,181 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9000 (http) with context path ''
+2021-04-05 20:41:41,184 INFO org.springframework.boot.StartupInfoLogger [main] Started LogServiceApplication in 2.961 seconds (JVM running for 3.199)
+2021-04-05 20:41:41,185 INFO com.test.log.service.LogService [main] Running log file processor.
+2021-04-05 20:41:41,188 INFO com.test.log.service.LogService [main] Reading file: src/main/resources/logfile/logfile.txt
+2021-04-05 20:41:41,352 ERROR com.test.log.service.LogService [main] Validation error: state cannot be null
+2021-04-05 20:41:41,353 ERROR com.test.log.service.LogService [main] Validation error: state cannot be null
+2021-04-05 20:44:00,715 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-05 20:44:00,717 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-05 20:44:00,720 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-04-05 20:44:00,727 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2021-04-05 20:44:06,969 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogServiceApplication on Josephs-MacBook-Pro.local with PID 5392 (/Users/josephpage/Projects/log-service/target/classes started by josephpage in /Users/josephpage/Projects/log-service)
+2021-04-05 20:44:06,971 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-05 20:44:07,402 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-05 20:44:07,455 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 41ms. Found 1 JPA repository interfaces.
+2021-04-05 20:44:07,666 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-05 20:44:07,833 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9000 (http)
+2021-04-05 20:44:07,843 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9000"]
+2021-04-05 20:44:07,846 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-05 20:44:07,847 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2021-04-05 20:44:07,941 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-05 20:44:07,941 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 930 ms
+2021-04-05 20:44:08,074 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-05 20:44:08,148 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.4.10.Final}
+2021-04-05 20:44:08,283 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-04-05 20:44:08,370 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-04-05 20:44:08,537 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2021-04-05 20:44:08,547 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-04-05 20:44:08,565 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2021-04-05 20:44:09,058 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-05 20:44:09,064 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-05 20:44:09,303 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-05 20:44:09,399 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-05 20:44:09,531 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9000"]
+2021-04-05 20:44:09,565 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9000 (http) with context path ''
+2021-04-05 20:44:09,568 INFO org.springframework.boot.StartupInfoLogger [main] Started LogServiceApplication in 3.032 seconds (JVM running for 3.254)
+2021-04-05 20:44:09,569 INFO com.test.log.service.LogService [main] Running log file processor.
+2021-04-05 20:44:09,572 INFO com.test.log.service.LogService [main] Reading file: src/main/resources/logfile/logfile.txt
+2021-04-05 20:44:09,715 ERROR com.test.log.service.LogService [main] Validation error: state cannot be null: LogEventTO(id=scsmbstgrd, state=null, timestamp=1491377495210, type=null, host=null)
+2021-04-05 20:44:09,717 ERROR com.test.log.service.LogService [main] Validation error: state cannot be null: LogEventTO(id=scsmbstgrd, state=null, timestamp=1491377495216, type=null, host=null)
