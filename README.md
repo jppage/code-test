@@ -32,7 +32,7 @@ The project contains one main unit test class which contains separate tests that
 
 The application uses Scanner which reads the log file line by line rather than in its entirety. Once a pair of lines are detected they are persisted and removed from the map. This approach means that the application will scale to process very large log files.
 
-### To do
+### To Do
 
-The application needs to be stress tested using a large log file.
-
+Add further tests covering negative scenarios e.g. bad data in the file.
+Stress test the application using a large log file.
