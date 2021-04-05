@@ -1,6 +1,6 @@
 ## Log Service
 
-This project loads and processes a log file. It calculates the duration between events starting and finishing and flags an alert if a duration threshold is breached. This is a Spring Boot application in Java 11 which uses @EventListener to trigger the file load once the application starts. No input from the user is required other than passing the log file path in the startup command. Alternatively you can ommit this and add it to the application.properties instead. To run this project check it out locally and run the following (it uses a Maven wrapper so you don't need to have Maven installed)
+This project loads and processes a log file. It calculates the duration between events starting and finishing and flags an alert if a duration threshold is breached. This is a Spring Boot application in Java 11 which uses @EventListener to trigger the file load once the application starts. No input from the user is required other than passing the log file path in the startup command. Alternatively you can omit this and add it to the application.properties instead. To run this project check it out locally and run the following (it uses a Maven wrapper so you don't need to have Maven installed)
 
 `./mvnw clean install`
 
@@ -34,5 +34,5 @@ The application uses Scanner which reads the log file line by line rather than i
 
 ### To Do
 
-Add further tests covering negative scenarios e.g. bad data in the file.
-Stress test the application using a large log file.
+* Add further tests covering negative scenarios e.g. bad data in the file.
+* Stress test the application using a large log file.
